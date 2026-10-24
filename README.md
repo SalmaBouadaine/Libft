@@ -36,6 +36,21 @@ Linked-list functions for creating, adding, deleting, and iterating through list
 
 > The functions listed above describe the project scope. Update this section to reflect the functions actually implemented in your repository.
 
+## Instructions
+
+### Compilation
+
+Run the following command from the project directory to compile the library:
+- make
+This generates the static library libft.a.
+
+### Makefile Rules
+
+- make or make all: Compiles the source files and creates the library.
+- make clean: Removes object files (.o).
+- make fclean: Removes object files and libft.a.
+- make re: Performs a clean rebuild of the library.
+
 ## Resources
 
 - [Makefile Tutorial](https://makefiletutorial.com/) — A tutorial and guide to understanding Makefiles.
